@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<h1>Contact Me</h1>
+<p>Have questions? Send me a message!</p>
+
+<form>
+
+    <!-- Name -->
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <!-- Email -->
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <!-- Dropdown (extra requirement) -->
+    <label for="reason">Reason for Contact:</label><br>
+    <select id="reason" name="reason">
+        <option value="question">Question</option>
+        <option value="feedback">Feedback</option>
+        <option value="other">Other</option>
+    </select><br><br>
+
+    <!-- Message -->
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5"></textarea><br><br>
+
+    <!-- Submit -->
+    <button type="submit">Send Message</button>
+
+</form>
+
+</body>
+</html>
